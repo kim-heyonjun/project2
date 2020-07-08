@@ -1,0 +1,121 @@
+*{
+    padding: 0 ; margin: 0
+}
+
+ul{
+    list-style: none
+}
+.inner{
+    width: 1180px; margin: 0 auto
+}
+a{
+    text-decoration: none
+}
+/*여기부터 헤더*/
+.header{
+    width: 100%; min-width: 1180px; height: 120px; background-color: rgba(10,36,54,0.7); 
+}
+.top_header{
+    width: 100%; min-width: 1180px; height: 31px; 
+}
+.top_header>.inner>p{
+    color: #fff; top: 9px; right: 480px; position: absolute
+}
+.top_sns{
+    width: 100px; height: 20px; float: right;
+}
+.top_sns>li{
+    float: left; width: 21%; padding-top: 10px; 
+}
+.top_sns>li>img{
+    width: 100%;
+}
+.top_sns>li:nth-child(1),.top_sns>li:nth-child(2),.top_sns>li:nth-child(3){
+    margin-right: 5.3%
+}
+.bottom_header{
+    width: 100%;  min-width: 1180px; height: 89px;
+}
+.logo{
+    float: left; padding-top: 10px
+}
+.menu{
+    width: 600px; float: left; padding-left: 88px; padding-top: 33px
+}
+.menu>li{
+    float: left; color: #fff; font-size: 19px; padding-right: 20px; font-weight: bold
+}
+.nav{
+    width: 64px; float: right; padding: 33px 0 0 216px;
+}
+.search{
+    float: left;
+}
+.submenu{
+    float: right;
+}
+#mainsubimg > img{
+    width: 100%;
+}
+
+.footer{
+    background-color: #3a3e47; height: 260px; width: 100%;  min-width: 1180px;position: relative;
+}
+.footer .inner{
+    position: relative;
+}
+.f_logo{
+    float: left; padding-top: 66px
+}
+.footlink{
+    padding: 92px 0 0 50px; float: left
+}
+.footlink li{
+     float: left; font-size: 13px; color: #fff; padding-right: 15px;
+}   
+.relationlink{
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 82px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #fff;
+}
+.btnsitego{
+    display: block;
+    padding: 0 40px 0 15px;
+    position: relative;
+    color: #fff;
+    line-height: 40px;
+    font-size: 13px
+}
+.linkselect{
+    display: none;
+    position: absolute;
+    top: -206px;
+    left: -1px;
+    right: -1px;
+    padding: 15px 0;
+    height: 206px;
+    background: #141720;
+    border: 1px solid #43454d;
+    box-sizing: border-box;
+}
+.relationlink .btnsitego:after{
+    display: block;
+    content: '';
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    margin-top: -3px;
+    width: 11px;
+    height: 6px;
+    background: url(../img/common_97.png) no-repeat -50px -100px;
+}
+.copyright{
+    padding: 37px 0 0 50px; float: left
+}
+.copyright p{
+    color: #fff; font-size: 12px; line-height: 35px; font-weight: bold
+}
